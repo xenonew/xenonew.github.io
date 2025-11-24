@@ -49,7 +49,7 @@
             border-radius: 50%;
         }
 
-        /* --- Главный заголовок --- */
+        /* --- Главный блок --- */
         .hero {
             text-align: center;
             margin-top: 60px;
@@ -57,16 +57,11 @@
             padding: 0 20px;
         }
 
-        .hero h1 {
-            font-size: 48px;
-            font-weight: 400;
-            margin-bottom: 20px;
-        }
-
         .hero h2 {
-            font-size: 32px;
+            font-size: 42px; /* Чуть увеличил, раз убрали H1 */
             font-weight: 500;
             margin-bottom: 15px;
+            color: #fff;
         }
 
         .hero p {
@@ -76,17 +71,18 @@
             font-size: 16px;
         }
 
-        /* Кнопка скачивания (Сделана большой для удобства) */
+        /* Кнопка скачивания */
         .download-btn {
             display: inline-block;
             margin-top: 30px;
-            padding: 12px 30px;
+            padding: 12px 35px;
             background-color: white;
             color: black;
             text-decoration: none;
             font-weight: bold;
             border-radius: 8px;
             transition: opacity 0.3s;
+            font-size: 16px;
         }
 
         .download-btn:hover {
@@ -162,7 +158,7 @@
             display: flex;
             flex-direction: column;
             gap: 15px;
-            margin-top: 30px; /* Отступ, чтобы выровнять с картинкой */
+            margin-top: 30px; 
         }
 
         /* Кружок с молнией */
@@ -230,11 +226,10 @@
     </header>
 
     <section class="hero">
-        <h1>Download</h1>
         <h2>Experience the Best Safe Tool</h2>
         <p>Xeno provides lightning-fast execution, external script support, and a simple interface - all completely free and keyless.</p>
         
-        <a href="https://github.com/xenonew/xenonew.github.io/raw/refs/heads/main/Xeno-v1.3.0a.zip" class="download-btn">Скачать сейчас</a>
+        <a href="https://github.com/xenonew/xenonew.github.io/raw/refs/heads/main/Xeno-v1.3.0a.zip" class="download-btn">Download</a>
     </section>
 
     <div class="content-grid">
